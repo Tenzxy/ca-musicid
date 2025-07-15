@@ -1,11 +1,11 @@
 // Firebase configuration - REPLACE WITH YOUR ACTUAL CONFIG
 const firebaseConfig = {
-    apiKey: "AIzaSyYOUR_API_KEY",
-    authDomain: "your-project-id.firebaseapp.com",
+    apiKey: "AIzaSyA-3nTDrFcJIMTq5yI1br7Thc8YMxiuUBg",
+    authDomain: "musicidrobloxadmin.firebaseapp.com",
     projectId: "musicidrobloxadmin",
-    storageBucket: "your-project-id.appspot.com",
-    messagingSenderId: "123456789012",
-    appId: "1:123456789012:web:abcdef1234567890"
+    storageBucket: "musicidrobloxadmin.firebasestorage.app",
+    messagingSenderId: "99281780246",
+    appId: "1:99281780246:web:a47260726d70cd63bcbf37"
 };
 
 // Initialize Firebase
@@ -13,7 +13,7 @@ firebase.initializeApp(firebaseConfig);
 const auth = firebase.auth();
 
 // List of admin emails (replace with your admin emails)
-const ADMIN_EMAILS = ["your.admin@email.com", "another.admin@email.com"];
+const ADMIN_EMAILS = ["vuthpanhha@email.com", "davinvoeun3@gmail.com"];
 
 // Music database
 const musicDatabase = [
